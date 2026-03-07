@@ -1,12 +1,9 @@
 body {
   color: #CB0FFF;
-<<<<<<< HEAD
-=======
   font-family: 'Papyrus';
->>>>>>> 46dc9ad340574391f19d1950839436cc002ce0c2
   background-image: url("https://www.filterforge.com/filters/11135-v6.jpg");
   background-size: 100px;
-  cursor: url("https://www.cursor.cc/cursor3d/120466.png"), auto;
+  cursor: url("https://cdn.custom-cursor.com/db/19894/color-pixels-wand-cursor.png"), auto;
 }
 
 h1 {
