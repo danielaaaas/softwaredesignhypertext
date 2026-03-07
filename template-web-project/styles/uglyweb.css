@@ -1,27 +1,30 @@
 body {
-  color: #9d0808;
-  font-family: 'Didot';
+  color: #CB0FFF;
+  font-family: 'Papyrus';
+  background-image: url("https://www.filterforge.com/filters/11135-v6.jpg");
+  background-size: 100px;
+  cursor: url("https://www.cursor.cc/cursor3d/120466.png"), auto;
 }
 
 h1 {
-  color: #9d0808;
-  font-family: 'Didot';
+  color: #CB0FFF;
+  font-family: 'Papyrus';
 }
 
 h2 {
-  color: #9d0808;
-  font-family: 'Didot';
+  color: #CB0FFF;
+  font-family: 'Papyrus';
 }
 
 h3 {
-  color: #9d0808;
-  font-family: 'Didot';
+  color: #CB0FFF;
+  font-family: 'Papyrus';
 }
 
 .section{
   border-width: 1px;
   border-style: dashed;
-  border-color: black;
+  border-color: #CB0FFF;
   border-radius: 12px;
   background-color: floralwhite;
   padding: 15px;
@@ -31,3 +34,4 @@ h3 {
 .section:hover {
   background-color:darksalmon;
 }
+
