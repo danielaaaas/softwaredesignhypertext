@@ -25,11 +25,14 @@ nav {
 /* honestly...the style wouldn't work under nav but 
 needed a separate 'nav a' title to work */
 
-nav a {
+nav a, nav a:link, nav a:visited {
   color: black;
   text-decoration: none;
   font-family: inter;
 }
+
+/* added link and visited because the text defaulted to blue
+and underline when i added links */
 
 nav a:hover {
   color:pink;
