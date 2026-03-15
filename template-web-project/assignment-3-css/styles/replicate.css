@@ -6,7 +6,7 @@ h3 {
 header {
   border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
   background-clip: padding-box;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   padding: 10px 20px;
   background-color: white;
 
@@ -60,9 +60,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
 
 .right {
   background-color: gray;
   color: white;
+  flex: 1;
 }
