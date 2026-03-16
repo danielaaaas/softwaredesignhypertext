@@ -1,12 +1,12 @@
 h1, h3 {
   color:black;
-  font-family: inter;
+  font-family: Inter;
   font-weight: normal;
 }
 
 h2 {
   color: white;
-  font-family: inter;
+  font-family: Inter;
   font-weight: normal;
 }
 
@@ -35,7 +35,7 @@ needed a separate 'nav a' title to work */
 nav a, nav a:link, nav a:visited {
   color: black;
   text-decoration: none;
-  font-family: inter;
+  font-family: Inter;
 }
 
 /* added link and visited because the text defaulted to blue
@@ -48,7 +48,7 @@ nav a:hover {
 
 body {
   color: black;
-  font-family: inter;
+  font-family: Inter;
 }
 
 .container {
