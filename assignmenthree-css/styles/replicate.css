@@ -81,10 +81,3 @@ that was throwing me off */
   color: white;
   flex: 1;
 }
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf') format('truetype');
-}
-
-/* just to see if i can get it mirrored on safari */
