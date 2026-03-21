@@ -75,8 +75,10 @@ body {
 .right {
   background-color: #F8F5E4;
   color: #EF5504;
+  display: flex;
   flex: 1;
   padding: 20px;
+  gap: 12px;
 }
 
 .row {
@@ -95,6 +97,27 @@ body {
 .rectangle {
   height: 100px;
   width: 50px;
+  background-color: #AB7255;
+  display: inline-block;
+}
+
+.otherow {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.rectbig {
+  height: 400px;
+  width: 200px;
+  background-color: #AB7255;
+  display: inline-block;
+}
+
+.rectstacked {
+  height: 200px;
+  width: 300px;
   background-color: #AB7255;
   display: inline-block;
 }
