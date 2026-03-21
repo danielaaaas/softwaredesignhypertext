@@ -98,8 +98,10 @@ that was throwing me off */
   flex: 1;
 }
 
+/* testing? */
+
 .right {
-  background-color: gray;
-  color: #F8F5E4;
+  background-color: #F8F5E4;
+  color: #EF5504;
   flex: 1;
 }
