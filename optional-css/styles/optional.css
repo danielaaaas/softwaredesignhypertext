@@ -64,13 +64,12 @@ body {
 
 .containertwo {
   display: flex;
- /*  align-items: flex-end; */
+ align-items: stretch;
 
 }
 
 .left, .right {
   width: 50%;
-  flex: none;
 }
 
 .left {
@@ -79,7 +78,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  flex: 1;
+  /* flex: 1; */
   padding: 20px;
   padding-top: 50px;
 }
@@ -87,7 +86,7 @@ body {
 .right {
   background-color: #F8F5E4;
   display: flex;
-  flex: 1;
+  /* flex: 1; */
   padding: 20px;
   gap: 12px;
   align-items: flex-end;
