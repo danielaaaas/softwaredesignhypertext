@@ -75,16 +75,14 @@ body {
 .right {
   background-color: #F8F5E4;
   color: #EF5504;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   flex: 1;
+  padding: 20px;
 }
 
 .row {
-  content: "";
-  clear: both;
-  display: table;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
 }
 
 .rectangleflat {
