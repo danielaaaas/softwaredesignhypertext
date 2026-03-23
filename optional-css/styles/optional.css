@@ -65,7 +65,7 @@ body {
 
 .containertwo {
   display: flex;
-  height: 452px;
+  overflow: hidden;
 }
 
 .left, .right {
@@ -101,39 +101,36 @@ body {
 }
 
 .rectangleflat {
-  height: 4vw;
-  width: 5vw;
+  height: 40px;
+  width: 50px;
   background-color: #AB7255;
-  display: inline-block;
 }
 
 .rectangle {
-  height: 10vw;
-  width: 5vw;
+  height: 120px;
+  width: 50px;
   background-color: #AB7255;
-  display: inline-block;
 }
 
 .otherow {
   display: flex;
   flex-direction: column;
-  gap: 1vw;
-  width: 25vw;
-  height: 40vw;
+  gap: 12px;
+  width: 280px;
+  height: 412px;
 }
 
 .rectbig {
-  height: 20vw;
-  width: 40vw;
+  height: 412px;
+  width: 300px;
   background-color: #AB7255;
-  display: inline-block;
 }
 
 .rectstacked {
   flex: 1;
-  width: 25vw;
+  width: 280px;
+  height: 200px;
   background-color: #AB7255;
-  display: inline-block;
 }
 
 /* test */
