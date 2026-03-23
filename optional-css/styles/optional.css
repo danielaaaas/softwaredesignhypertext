@@ -101,15 +101,15 @@ body {
 }
 
 .rectangleflat {
-  height: 40px;
-  width: 50px;
+  height: 4vw;
+  width: 5vw;
   background-color: #AB7255;
   display: inline-block;
 }
 
 .rectangle {
-  height: 120px;
-  width: 50px;
+  height: 10vw;
+  width: 5vw;
   background-color: #AB7255;
   display: inline-block;
 }
@@ -117,22 +117,21 @@ body {
 .otherow {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  flex: 1;
-  width: 300px;
-  height: 412px;
+  gap: 1vw;
+  width: 25vw;
+  height: 40vw;
 }
 
 .rectbig {
-  height: 412px;
-  width: 200px;
+  height: 20vw;
+  width: 40vw;
   background-color: #AB7255;
   display: inline-block;
 }
 
 .rectstacked {
   flex: 1;
-  width: 300px;
+  width: 25vw;
   background-color: #AB7255;
   display: inline-block;
 }
